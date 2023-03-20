@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+}
+
+body{
+    display: flex;
+    background-image:url(../../css/imagem/imagem2.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.texto{
+    display: flex;
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:600px;
+    margin-bottom: 20px;
+    background: rgb(239, 8, 151);
+    border-radius: 20px;
+}
+
+.texto h1{
+    margin: 0 auto;
+    margin-top: 3px;
+    color:#ffffff;
+}

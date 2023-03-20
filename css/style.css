@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html,body{
+    height:100%;
+}
+
+
+.card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(imagem/capa1.jpg);
+    background-position: center center;
+}
+
+.texto{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:350px;
+}
+
+.texto h1{
+    color:#ffffff;
+}
+
+.nao:active{
+    width: 15%;
+    position:absolute;
+    right:50px;
+    bottom:60px;
+}
+
+.buttom2{
+    width:50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.buttom2 button{
+    width: 20%;
+    padding:10px;
+    border-radius:20px;
+    border:none;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight:900;
+    background:rgb(239, 8, 151);
+    
+
+}
+
+.buttom2 a{
+    color: none;
+    text-decoration: none;
+}
+
+.center{
+    position: fixed;
+    left: 25%;
+}
+
+.nao{
+    position: fixed;
+    right: 25%;
+}
+
+@media screen and (max-width:800px){
+    .texto{
+        width: 100%;
+    }
+
+    .buttom2{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .buttom2 button{
+        width: 30%;
+    }
+
+    .nao:active{
+        width: 30%;
+    }
+
+    .center{
+        left: 15%;
+    }
+    
+    .nao{
+        right: 15%;
+    }
+}
